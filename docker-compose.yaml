@@ -1,0 +1,6 @@
+services:
+  game:
+    image: fefas/kotlin-game-of-craps
+    build: .
+    volumes:
+      - ./app:/home/gradle/project/app
